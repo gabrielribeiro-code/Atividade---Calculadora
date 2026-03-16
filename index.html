@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,84 +7,57 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Calculadora</title>
-
 </head>
+
 <body>
-    
-    <h1>Calculadora Simples</h1>
 
-<section id="Calculadora"> 
+    <header id="titulo">
+        <h1>Calculadora Simples</h1>
+    </header>
 
-    <div class="resultado"> 0 </div>
+    <main>
+        <section id="Calculadora">
+            <div class="resultado">0</div>
 
-        <div class="botoes">
+            <div id="botoes">
+                <div class="flex">
+                    <button class="botoes_operacoes">+</button>
+                    <button class="botoes_operacoes">-</button>
+                    <button class="botoes_operacoes">x</button>
+                    <button class="botoes_operacoes">%</button>
+                </div>
 
+                <div class="flex">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>=</button>
+                </div>
 
-<div class="display_flex">
-    <button class="botoes_operacoes"> + </button>
-    <button class="botoes_operacoes"> - </button>
-    <button class="botoes_operacoes"> x </button>
-    <button class="botoes_operacoes"> % </button>
-</div>
+                <div class="flex">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </div>
 
-<div class="display_flex">
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-        <button> = </button>
+                <div class="flex">
 
-</div>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
 
-
-<div class="display_flex">
-
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-
-</div>
-
-<div class="display_flex">
-
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-
-</div>
-
-<div class="display_flex">
-    <button>0</button>
-    <button>.</button>
-    <button>AC</button>
-
-</div>
-
-
-
-        </div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                <div class="flex">
+                    <button>0</button>
+                    <button>.</button>
+                    <button>AC</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
 </body>
 
-
 <script src="script.js"> </script>
-
 
 </html>
