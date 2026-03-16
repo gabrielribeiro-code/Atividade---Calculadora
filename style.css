@@ -1,5 +1,6 @@
 body {
     background-color: rgb(65, 137, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -27,15 +28,20 @@ h1 {
 
 .flex {
     display: flex;
+    width: 50;
+    height: 50;
+    padding: 10;
 }
 
 #botoes {
-    display: grid;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+ 
+    width: 150px;
+    height: 40px;
 }
-
-.botao_igual {
-    height: 200px;
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
 }
