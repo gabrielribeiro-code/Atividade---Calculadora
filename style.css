@@ -32,6 +32,8 @@ h1 {
 #botoes {
     display: grid;
     justify-content: center;
+    height: 200px;
+    width: 200px;
 }
 
 .botao_igual {
