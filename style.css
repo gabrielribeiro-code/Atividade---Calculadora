@@ -1,6 +1,7 @@
 body {
     background-color: rgb(65, 137, 185);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
 }
 
 h1 {
@@ -11,8 +12,9 @@ h1 {
 
 /* ===== SESSÃO DA CALCULADORA ===== */
 
-#calculadora {
+.calculadora {
     justify-content: center;
+
 }
 
 .resultado {
@@ -21,27 +23,19 @@ h1 {
     height: 120px;
     justify-content: center;
     margin-left: 700px;
-    margin-top: 70px;
+    margin-top: 200px;
     text-align: right;
     font-size: 50px;
 }
 
-.flex {
-    display: flex;
-    width: 50;
-    height: 50;
-    padding: 10;
-}
 
-#botoes {
-    justify-content: center;
- 
-    width: 150px;
-    height: 40px;
+
+.botoes {
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-columns: repeat(6,1fr);
-    justify-content: center;
+    
 }
