@@ -1,7 +1,7 @@
 /*Var */
 let numero1 = 0;
 let numero2 = 0;
-let operacao = 0;
+let operacao = "";
 /*  */ 
 
 
