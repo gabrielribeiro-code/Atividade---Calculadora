@@ -19,49 +19,29 @@
         <div class="calculadora"> 
 
             <h1> Calculadora</h1>
-               <p id= resultado> </p>
+               
+            <div> 
 
-                <table> 
-                    <tr>
-                   <td> <button class="botao cor" onclick="apagar()" > CE</button> </td>
-                   <td > <button class="botao cor" onclick="limpar()"> C</button> </td>
-                   <td >  <button class="botao cor" onclick="apagar()"> DEL </button> </td>
-                   <td > <button class="botao cor" onclick="clique('/')"> / </button> </td>
-                    </tr>
+                <input type="number" id="n1">
+                <input type="number" id="n2">
 
-                <tr>
-                   <td> <button class="botao"  onclick="clique('7')" >7</button> </td>
-                    <td> <button class="botao" onclick="clique('8')" >8</button> </td>
-                  <td>  <button class="botao"  onclick="clique('9')">9</button> </td>
-                   <td > <button class="botao cor" onclick="clique ('*')"> * </button> </td>
+
+            </div>
             
-                </tr>
+            <div>
 
-                <tr>
-                  <td>   <button class="botao" onclick="clique('4')" >4</button> </td>
-                  <td>   <button class="botao" onclick="clique('5')">5</button> </td> 
-                  <td>   <button class="botao" onclick="clique('6')" >6</button> </td> 
-                  <td>   <button class="botao cor" onclick="clique('-')"> - </button> </td> 
-                </tr>
-                    
-                <tr> 
-                   <td>  <button class="botao" onclick="clique('1')" >1</button> </td> 
-                 <td>    <button class="botao" onclick="clique('2')">2</button> </td> 
-                 <td>    <button class="botao" onclick="clique('3')">3</button> </td>
-                   <td>  <button class="botao cor" onclick="clique('+')"> + </button> </td>
-                </tr>
-                 
-                    <tr> 
-                  <td>   <button class="botao cor" onclick="clique('+/-')" >+/-</button> </td> 
-                   <td>  <button class="botao" onclick="clique('0')" >0</button> </td> 
-                   <td>  <button class="botao cor" onclick="clique(',')" >,</button> </td>
-                   <td>  <button class="botao cor" onclick="soma()('=')" > = </button> </td>
-                    </tr>
-                </div>
-</table>
+                
+
+            </div>
+            
+            
+            
+            
+            <p id= tela_resultado> </p>
+
+               
       
  
-
 </body>
 
 <script src="script.js"> </script>

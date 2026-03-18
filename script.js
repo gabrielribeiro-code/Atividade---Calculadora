@@ -2,19 +2,19 @@
 
 function clique (numero){
     
-   let num = document.getElementById('resultado').innerHTML;
-   document.getElementById('resultado').innerHTML = num + numero;
+   let num = document.getElementById('tela_resultado').innerHTML;
+   document.getElementById('tela_resultado').innerHTML = num + numero;
 
   
 }
 
 function limpar(){
-    document.getElementById('resultado').innerHTML = " ";
+    document.getElementById('tela_resultado').innerHTML = " ";
 }
 
 function apagar(){
-    let resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+    let resultado = document.getElementById('tela_resultado').innerHTML;
+    document.getElementById('tela_resultado').innerHTML = resultado.substring(0, resultado.length -1);
 }
 
 
@@ -27,6 +27,7 @@ function soma(){
 
     resultado = numero1 + numero2;
     console.log(resultado);
+    document.getElementById("tela_resultado").innerHTML = resultado;
     
 } 
 
@@ -39,6 +40,7 @@ function subtracao(){
 
     resultado = numero1 - numero2;
     console.log(resultado);
+    document.getElementById("tela_resultado").innerHTML = resultado;
     
 } 
 
@@ -51,6 +53,7 @@ function multiplicacao(){
 
     resultado = numero1 * numero2;
     console.log(resultado);
+    document.getElementById("tela_resultado").innerHTML = resultado;
     
 } 
 
@@ -64,6 +67,7 @@ function divisao(){
 
     resultado = numero1 / numero2;
     console.log(resultado);
+    document.getElementById("tela_resultado").innerHTML = resultado;
     
 } 
 
