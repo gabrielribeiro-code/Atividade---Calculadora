@@ -1,20 +1,11 @@
-/*Var */
-let numero1 = (parseFloat);
-let numero2 = (parseFloat);
-let operacao = "";
-let numero = 0;
-/*  */ 
 
 
 function clique (numero){
     
-   let tela = document.getElementById('resultado').innerHTML;
+   let num = document.getElementById('resultado').innerHTML;
+   document.getElementById('resultado').innerHTML = num + numero;
 
-   if(numero === "+" || numero === "-" || numero === "*" || numero === "/"){
-    numero1 = tela;
-    operacao = numero;
-   }
-    document.getElementById('resultado').innerHTML = tela + numero;
+  
 }
 
 function limpar(){
@@ -28,5 +19,25 @@ function apagar(){
 
 
 function calcular(){
+
+
+let resultado = document.getElementById('resultado').innerHTML;
+
   
-   
+if(resultado){
+
+    document.getElementById('resultado').innerHTML = eval(resultado);
+}
+  
+
+else {
+    document.getElementById('resultado').innerHTML = "Nada...";
+}
+  
+
+
+}
+
+
+  
+
