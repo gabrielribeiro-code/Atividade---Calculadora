@@ -1,21 +1,6 @@
 
 
-function clique (numero){
-    
-   let num = document.getElementById('tela_resultado').innerHTML;
-   document.getElementById('tela_resultado').innerHTML = num + numero;
 
-  
-}
-
-function limpar(){
-    document.getElementById('tela_resultado').innerHTML = " ";
-}
-
-function apagar(){
-    let resultado = document.getElementById('tela_resultado').innerHTML;
-    document.getElementById('tela_resultado').innerHTML = resultado.substring(0, resultado.length -1);
-}
 
 
 function soma(){
