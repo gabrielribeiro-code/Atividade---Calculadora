@@ -18,25 +18,19 @@ function apagar(){
 }
 
 
-function calcular(){
+function soma(){
+
+    let resultado = 0;
+    let numero1 = Number(document.getElementById(numero1).value);
+    let numero2 = Number(document.getElementById(numero2).value);
 
 
-let resultado = document.getElementById('resultado').innerHTML;
-
-  
-if(resultado){
-
-    document.getElementById('resultado').innerHTML = eval(resultado);
-}
-  
-
-else {
-    document.getElementById('resultado').innerHTML = "Nada...";
-}
-  
+    resultado = numero1 + numero2;
+    
+} 
 
 
-}
+
 
 
   
