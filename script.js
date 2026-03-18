@@ -26,9 +26,50 @@ function soma(){
 
 
     resultado = numero1 + numero2;
+    console.log(resultado);
     
 } 
 
+function subtracao(){
+
+    let resultado = 0;
+    let numero1 = Number(document.getElementById(numero1).value);
+    let numero2 = Number(document.getElementById(numero2).value);
+
+
+    resultado = numero1 - numero2;
+    console.log(resultado);
+    
+} 
+
+function multiplicacao(){
+
+    let resultado = 0;
+    let numero1 = Number(document.getElementById(numero1).value);
+    let numero2 = Number(document.getElementById(numero2).value);
+
+
+    resultado = numero1 * numero2;
+    console.log(resultado);
+    
+} 
+
+
+function divisao(){
+
+    let resultado = 0;
+    let numero1 = Number(document.getElementById(numero1).value);
+    let numero2 = Number(document.getElementById(numero2).value);
+
+
+    resultado = numero1 / numero2;
+    console.log(resultado);
+    
+} 
+
+
+
+    
 
 
 
